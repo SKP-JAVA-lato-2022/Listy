@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        ListOperation listOperation = new ListOperation(10000000, 100);
+        //listOperation.testAdd();
+        listOperation.testDelete();
     }
 }
